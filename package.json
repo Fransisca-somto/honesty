@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Fransisca-somto.github.io/honesty.com",
+  "homepage": "https://Fransisca-somto.github.io/",
   "devServer": {
     "allowedHosts": [
       "localhost"
