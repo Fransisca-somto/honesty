@@ -14,7 +14,7 @@ import Inventory from "./components/inventory/Inventory";
 function App() {
   return (
     <Router>
-      <Routes>
+      <Routes basename="/honesty">
         <Route path="/" element={<LoginPage />}>
           <Route index path="/" element={<Welcome />} />
           <Route path="/login" element={<LoginComponent />} />
@@ -26,6 +26,7 @@ function App() {
           <Route index path="/home" element={<Home />} />
           <Route path="/newproduct" element={<Inventory />} />
         </Route>
+        <Route path="*" element={<h1>404 - Page Not Found</h1>} />
       </Routes>
     </Router>
   );
