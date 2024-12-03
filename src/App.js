@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+/** @format */
+
+import "./App.css";
+import LoginPage from "./components/LoginPage";
+import Home from "./components/home/Home";
+import SignUp from "./components/SignUp";
+import LoginComponent from "./components/LoginComponent";
+import Welcome from "./components/Welcome";
+import Nav from "./components/nav/Nav";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import SignupSuccess from "./components/SignupSuccess";
+import Inventory from "./components/inventory/Inventory";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<LoginPage />}>
+          <Route index path="/" element={<Welcome />} />
+          <Route path="/login" element={<LoginComponent />} />
+          <Route path="/signup" element={<SignUp />} />
+          <Route path="/success" element={<SignupSuccess />} />
+        </Route>
+
+        <Route path="/" element={<Nav />}>
+          <Route index path="/home" element={<Home />} />
+          <Route path="/newproduct" element={<Inventory />} />
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 
