@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/honesty/static/css/main.eec2697c.css",
-    "main.js": "/honesty/static/js/main.5e1ab6a0.js",
+    "main.js": "/honesty/static/js/main.25ed9b2a.js",
     "static/media/image6.jpg": "/honesty/static/media/image6.2ea9a3ce7b9a4c553a13.jpg",
     "static/media/image15.jpg": "/honesty/static/media/image15.d4780024bda0cb5770b8.jpg",
     "static/media/image10.jpg": "/honesty/static/media/image10.6bc579d922d9e6716796.jpg",
@@ -21,10 +21,10 @@
     "static/media/logo.png": "/honesty/static/media/logo.4d3d01203c9c2b40cfc5.png",
     "index.html": "/honesty/index.html",
     "main.eec2697c.css.map": "/honesty/static/css/main.eec2697c.css.map",
-    "main.5e1ab6a0.js.map": "/honesty/static/js/main.5e1ab6a0.js.map"
+    "main.25ed9b2a.js.map": "/honesty/static/js/main.25ed9b2a.js.map"
   },
   "entrypoints": [
     "static/css/main.eec2697c.css",
-    "static/js/main.5e1ab6a0.js"
+    "static/js/main.25ed9b2a.js"
   ]
 }
